@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+ display: grid;
+ gap: 20px;
+ /* grid-template-columns: (4,200px);
+ grid-template-rows: (3, 1fr); */
+ grid-template-areas: 
+ "eins eins zwei zwei"
+ "drei vier zwei zwei"
+ "fuenf fuenf sechs sechs"
+ ;
+
+}
+
+
+
+.box1{
+    grid-area: eins;
+    outline: 1px solid rgb(4, 4, 255);
+    
+   
+}
+
+.girf {
+    width: 100%;
+    height: 200px;
+}
+.jap{
+    width: 100%;
+    aspect-ratio: 1/1.5 ;
+}
+.haus{
+    width: 100%;
+    height: 200px;
+}
+.hochHaus{
+    width: 100%;
+    height: 200px;
+}
+.baum{
+    width: 100%;
+    height: 200px;
+}
+.wolke{
+    width: 100%;
+    height: 200px;
+}
+
+.box2{
+    grid-area: zwei;
+    
+    
+   
+}
+.box3{
+    grid-area: drei;
+   
+   
+}
+.box4{
+    grid-area: vier;
+   
+  
+}
+.box5{
+    grid-area: fuenf;
+
+}
+.box6{
+    grid-area: sechs;
+
+}

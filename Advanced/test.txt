@@ -1,0 +1,50 @@
+.container{
+    margin: 100px 100px ;
+    outline: 1px solid rgb(232, 11, 11);
+    width: 110vh;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(21, 1fr);
+    grid-template-rows: repeat(35, 1fr) ;
+}
+.box{
+    padding: 2.2vh 2.2vh;
+}
+.box1{
+    outline: 1px solid blue;
+    width: 90px;
+    height: 40px;
+    grid-column:2/22 ;
+    grid-column-end: 9;
+    grid-row:2/15;
+    grid-row-end: 4/14;
+    /* background-image: url(https://pixabay.com/get/g4c91d3d7689820f4bdffa04d5f1f027ebe57eb79733033c50bdd142220947a08d3e2d3710caa80e374955a6e4ead4c3009dcafe9b986725f40ac69232d80bf7c3e3bbd0c13a15507a0b6f75cef6b9e32_640.jpg), conic-gradient(red, blue,yellow); */
+
+   
+}
+.box2{
+    width: 180px;
+    height: 40px;
+    grid-column:11/22 ;
+    grid-row:2/15;
+    outline: 1px solid rgb(103, 103, 154);
+    background-image: url(https://pixabay.com/de/photos/stra%C3%9Fe-daegu-korea-stadt-6509043/), conic-gradient(to top, red, blue, yellow);
+   
+}
+.box3{
+  
+    outline: 1px solid rgb(189, 79, 173);
+    background-image: url(), conic-gradient(to top, red, blue, yellow);
+}
+.box4{
+    outline: 1px solid rgb(109, 35, 35);
+    background-image: url(), conic-gradient(to top, red, blue, yellow);
+}
+.box5{
+    outline: 1px solid rgb(18, 159, 62);
+    background-image: url(), conic-gradient(to top, red, blue, yellow);
+}
+.box6{
+    outline: 1px solid rgb(224, 224, 29);
+    background-image: url(), conic-gradient(to top, red, blue, yellow);
+}
